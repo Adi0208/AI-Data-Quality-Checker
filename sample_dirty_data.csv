@@ -1,0 +1,31 @@
+Campaign,Email,Event,First Name,Last Name,Address,Email Opt In,Email Opt Out,Additional Information
+Summer Sale 2024,john.doe@email.com,Webinar,John,Doe,"123 Main St, New York, NY 10001",Yes,No,VIP Customer
+Winter Promo,,Conference,Jane,Smith,"456 Oak Ave, Los Angeles, CA 90001",Yes,No,Prefers email contact
+Summer Sale 2024,bob.wilson@email.com,Webinar,Bob,Wilson,"789 Pine Rd, Chicago, IL 60601",No,Yes,
+Black Friday,invalid-email,Trade Show,Alice,,,"Yes",No,<script>alert('xss')</script>
+Summer Sale 2024,john.doe@email.com,Webinar,John,Doe,"123 Main St, New York, NY 10001",Yes,No,VIP Customer
+Spring Launch,carol.jones@,Seminar,Carol,Jones,"321 Elm St, Houston, TX 77001",Yes,Yes,Opted in AND out
+,mike.brown@email.com,Conference,Mike,Brown,"",No,No,Missing campaign
+Black Friday,sara.davis@email.com,,Sara,Davis,"654 Maple Dr, Phoenix, AZ 85001",Yes,No,
+Summer Sale 2024,test@test,Workshop,,,,"1",0,No first/last name
+Winter Promo,nancy.white@email.com,Webinar,Nancy,White,"987 Cedar Ln, Philadelphia, PA 19101",Yes,No,Follow up needed
+Spring Launch,,,,,,,, 
+Black Friday,james.martin@email.com,Trade Show,James,Martin,"147 Birch Blvd, San Antonio, TX 78201",No,No,"Contains \ backslash"
+Summer Sale 2024,emily.clark@email.com,Conference,Emily,Clark,"258 Walnut St, San Diego, CA 92101",Yes,No,
+Winter Promo,david.lee@email.com,Seminar,David,Lee<script>,"369 Spruce Ave, Dallas, TX 75201",Yes,No,Suspicious last name
+Spring Launch,olivia.hall@email.com,Webinar,Olivia,Hall,"741 Willow Way, San Jose, CA 95101",1,0,Numeric opt fields
+Black Friday,,Trade Show,,Taylor,"",Yes,No,Missing first name & email
+Summer Sale 2024,william.young@email.com,Workshop,William,Young,"852 Aspen Ct, Austin, TX 78701",Yes,No,
+Winter Promo,sophia.king@email.com,Conference,Sophia,King,"963 Poplar Pl, Jacksonville, FL 32201",No,No,
+Spring Launch,LIAM.SCOTT@EMAIL.COM,Seminar,Liam,Scott,"159 Magnolia Dr, San Francisco, CA 94101",Yes,No,All caps email
+Black Friday,ava.green@email.com,Webinar,Ava,Green,"357 Hickory Rd, Columbus, OH 43201",Yes,No,
+Summer Sale 2024,noah.baker@email.com,Trade Show,Noah,Baker,,Yes,No,Missing address
+Winter Promo,isabella.adams@email.com,Conference,Isabella,Adams,"753 Chestnut Ave, Charlotte, NC 28201",Yes,Yes,Opted in AND out again
+Spring Launch,mia.nelson@email.com,Webinar,  Mia  ,Nelson,"951 Sycamore St, Indianapolis, IN 46201",Yes,No,Leading/trailing spaces in name
+Black Friday,james.martin@email.com,Trade Show,James,Martin,"147 Birch Blvd, San Antonio, TX 78201",No,No,"Contains \ backslash"
+Summer Sale 2024,ethan.carter@email.com,Workshop,Ethan,Carter,"246 Redwood Ln, Seattle, WA 98101",Yes,No,9999999999999 high value flag
+Winter Promo,charlotte.mitchell@email.com,Seminar,Charlotte,Mitchell,"468 Sequoia Blvd, Denver, CO 80201",No,No,
+Spring Launch,aiden.perez@email.com,Conference,Aiden,Perez,"135 Fir St, Nashville, TN 37201",Yes,No,
+Black Friday,harper.roberts@email.com,Webinar,Harper,Roberts,"579 Palm Ave, Oklahoma City, OK 73101",Yes,No,
+Summer Sale 2024,lucas.turner@email.com,Trade Show,Lucas,Turner,"864 Bamboo Rd, El Paso, TX 79901",No,Yes,
+Winter Promo,amelia.phillips@email.com,Workshop,Amelia,Phillips,"732 Coconut Dr, Louisville, KY 40201",Yes,No,"Address has > special char >"

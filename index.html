@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Data Quality Checker</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+          <rect x="1" y="1" width="20" height="20" rx="5" stroke="#378ADD" stroke-width="1.5"/>
+          <path d="M6 11h10M6 7h6M6 15h8" stroke="#378ADD" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span>DataQuality<strong>AI</strong></span>
+      </div>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="https://github.com/yourusername/ai-data-quality-checker" target="_blank" class="btn-github">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          View on GitHub
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">Powered by Claude AI</div>
+      <h1>AI Data Quality Checker</h1>
+      <p>Upload your CSV or Excel file and instantly detect missing values, duplicates, invalid formats, bad characters, mandatory column violations, and more — powered by AI.</p>
+      <a href="#app" class="btn-primary">Try it now →</a>
+    </div>
+  </header>
+
+  <section id="features" class="features">
+    <div class="container">
+      <h2>What it checks</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🔍</div>
+          <h3>Missing values</h3>
+          <p>Detects blank or null cells per column with percentage impact scores.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">♻️</div>
+          <h3>Duplicate rows</h3>
+          <p>Finds exact duplicate records that inflate datasets and skew analysis.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📋</div>
+          <h3>Wrong format</h3>
+          <p>Validates emails, dates, and phone numbers against expected patterns.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚠️</div>
+          <h3>Invalid characters</h3>
+          <p>Catches dangerous or unintended characters like \, &lt;, &gt;, |, and more.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔢</div>
+          <h3>Mixed data types</h3>
+          <p>Spots columns with both numeric and text values causing formula errors.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Statistical outliers</h3>
+          <p>Flags values more than 3 standard deviations from the column mean.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Mandatory columns</h3>
+          <p>Checks that user-defined required columns exist and are not empty.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>AI deep analysis</h3>
+          <p>Claude AI scans for semantic issues, logic errors, and inconsistency patterns.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="how-it-works">
+    <div class="container">
+      <h2>How it works</h2>
+      <div class="steps">
+        <div class="step"><div class="step-num">1</div><h3>Upload your file</h3><p>Drop a CSV or Excel file (.csv, .xlsx, .xls)</p></div>
+        <div class="step-arrow">→</div>
+        <div class="step"><div class="step-num">2</div><h3>Configure checks</h3><p>Choose which validations to run and set mandatory columns</p></div>
+        <div class="step-arrow">→</div>
+        <div class="step"><div class="step-num">3</div><h3>AI analyzes</h3><p>Local rules + Claude AI scan your data in seconds</p></div>
+        <div class="step-arrow">→</div>
+        <div class="step"><div class="step-num">4</div><h3>Get report</h3><p>Review issues by severity and export the full report</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="app" class="app-section">
+    <div class="container">
+      <h2>Check your data</h2>
+      <p class="section-sub">Upload a file to get started. Your data never leaves your browser — analysis is done locally and via secure API.</p>
+
+      <div class="upload-zone" id="dropZone">
+        <div class="upload-icon">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <rect x="1" y="1" width="38" height="38" rx="9" stroke="#378ADD" stroke-width="1.2" stroke-dasharray="4 3"/>
+            <path d="M20 26V14M20 14l-5 5M20 14l5 5" stroke="#378ADD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 28h16" stroke="#378ADD" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <p class="upload-title">Drop your file here or <span class="upload-link">browse</span></p>
+        <p class="upload-sub">Supports CSV, XLSX, XLS · Max 10MB · Data stays in your browser</p>
+        <input type="file" id="fileInput" accept=".csv,.xlsx,.xls" />
+      </div>
+
+      <div class="config-grid">
+        <div class="config-card">
+          <h3>Quality checks</h3>
+          <div class="check-row"><input type="checkbox" id="chkMissing" checked /><label for="chkMissing">Missing values</label></div>
+          <div class="check-row"><input type="checkbox" id="chkDupes" checked /><label for="chkDupes">Duplicate rows</label></div>
+          <div class="check-row"><input type="checkbox" id="chkFormat" checked /><label for="chkFormat">Wrong format (email, date, phone)</label></div>
+          <div class="check-row"><input type="checkbox" id="chkChars" checked /><label for="chkChars">Invalid characters (\, &lt;, &gt;, |, etc.)</label></div>
+          <div class="check-row"><input type="checkbox" id="chkFormula" checked /><label for="chkFormula">Mixed data types / formula mismatches</label></div>
+          <div class="check-row"><input type="checkbox" id="chkOutlier" checked /><label for="chkOutlier">Statistical outliers (Z-score &gt; 3)</label></div>
+        </div>
+        <div class="config-card">
+          <h3>Mandatory columns</h3>
+          <p class="config-hint">Columns that must exist and must not be empty (comma-separated):</p>
+          <textarea id="mandatoryInput" placeholder="e.g. customer_id, email, date" rows="3"></textarea>
+          <p class="config-hint" style="margin-top:12px;">Dataset context (helps AI understand your data):</p>
+          <input type="text" id="contextInput" placeholder="e.g. e-commerce orders, marketing campaigns" />
+        </div>
+      </div>
+
+      <button class="btn-analyze" id="analyzeBtn" disabled>Analyze data quality →</button>
+
+      <div class="loading-bar" id="loadingBar"><div class="loading-fill" id="loadingFill"></div></div>
+      <div class="loading-label" id="loadingLabel"></div>
+
+      <div class="results" id="results">
+        <div class="file-info" id="fileInfo"></div>
+
+        <div class="metrics" id="metrics"></div>
+
+        <div class="ai-summary" id="aiSummary" style="display:none;">
+          <div class="ai-summary-label">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="#378ADD" stroke-width="1.5"/><path d="M12 8v4M12 16h.01" stroke="#378ADD" stroke-width="1.5" stroke-linecap="round"/></svg>
+            AI Summary
+          </div>
+          <p id="aiSummaryText"></p>
+        </div>
+
+        <div class="issues-header">
+          <h3>Issues found <span id="issueCount" class="issue-count-badge"></span></h3>
+          <div class="issues-actions">
+            <div class="filter-tabs" id="filterTabs">
+              <button class="ftab active" data-filter="all">All</button>
+              <button class="ftab critical" data-filter="critical">Critical</button>
+              <button class="ftab warning" data-filter="warning">Warning</button>
+              <button class="ftab info" data-filter="info">Info</button>
+            </div>
+            <button class="btn-export" id="exportBtn">Export report ↓</button>
+          </div>
+        </div>
+
+        <div id="issuesList"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Built with Claude AI · <a href="https://github.com/yourusername/ai-data-quality-checker" target="_blank">View source on GitHub</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="js/checker.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
