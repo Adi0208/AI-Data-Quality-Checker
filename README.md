@@ -2,7 +2,7 @@
 
 A browser-based tool that uses rule-based checks and **Claude AI** to detect data quality issues in CSV and Excel files — instantly, with no backend required.
 
-![Preview](assets/preview.png)
+Live Demo : https://adi0208.github.io/AI-Data-Quality-Checker/
 
 ## Features
 
