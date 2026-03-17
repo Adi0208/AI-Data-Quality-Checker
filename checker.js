@@ -3,7 +3,7 @@
  * All checks run client-side, no data leaves the browser at this stage.
  */
 
-const INVALID_CHAR_RE = /[\\<>|"';\0\x01-\x1F]/;
+const INVALID_CHAR_RE = /[^0-9A-Za-z@]/;
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
 /**
